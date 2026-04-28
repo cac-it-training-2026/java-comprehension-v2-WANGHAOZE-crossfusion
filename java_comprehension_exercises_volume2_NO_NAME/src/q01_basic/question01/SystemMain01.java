@@ -21,8 +21,21 @@ rank:2
 public class SystemMain01 {
 
 	public static void main(String[] args) {
-		//TODO ここから実装する
+		System.out.println("---SHOW DATA---");
 
+		Member m1 = new Member();
+		Member m2 = new Member();
+
+		m1.name = "Miura Manabu";
+		m1.age = 24;
+		m1.rank = 1;
+
+		m2.name = "Sato Kensuke";
+		m2.age = 36;
+		m2.rank = 2;
+
+		m1.showMember();
+		m2.showMember();
 	}
 
 }
